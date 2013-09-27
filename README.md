@@ -1,3 +1,5 @@
 drawTogether
 ============
-为什么要输入username?
+原来是这样。
+[freeHosting](www.gavinblog.net/drawTheMap,"lll")
+[ZhuJiWu]:www.gmy.asia/drawTheMap,"xxx"
