@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="点一点，画一画">
+<title>Draw Together</title>
+<!-- 个人小清新作品大家闲着没事就来点点咯 -->
+<script src="./myjs.js" type="text/javascript" charset="UTF-8"></script>
+<link rel='stylesheet' type="text/css" href="mycss.css" />
+<script type="text/javascript">
+	setInterval("loadXMLDoc()",300);
+	setInterval("getOnlineNumber()",2000);
+</script>
+</head>
+
+<body onload="showLast()">
+	<div id="prehead">
+		<div id="lastbg"><p id='lastman'></p></div>
+		<p id='number'></p>	
+	</div>
+	<div id='header'>
+		<img style="margin-left:27%; margin-top:12px " src="header.png" />
+		<h3 id='scinfo'> 横屏获得更好体验:)</h3>
+	</div>
+	<div id='myDiv' style="display:none" ></div>
+	<div id='info'  class='pos_abs'>
+		
+		
+	</div>
+<!--=========== Canvas ================-->
+	<div id='center'>
+		<canvas id='myCanvas' width="600" height="400" style="border:1px solid #c3c3c3;" onmousedown="displayAndStroe(event)">
+			你的浏览器跪了Orz=3
+		</canvas>
+		<div style="display:none">
+			<p id='xx'></p>
+    		<!-- <p id='status' align="center" style="color:black"></p> -->
+		</div>
+	</div>
+<!--=========== Canvas done ================-->
+	<script type='text/javascript'>
+		setInterval('draw()',300);
+		end();
+	</script>
+	<div id="footer">Designed by Gavin, imitating Matrix67</div>
+</body>
+</html>
