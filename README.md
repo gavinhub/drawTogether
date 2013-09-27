@@ -1,4 +1,4 @@
 drawTogether
 ============
 #####原来是这样。
-[freeHosting](http://www.gavinblog.net/drawTheMap "lll")
+[链接](http://www.gmy.asia/drawTheMap "ll")
